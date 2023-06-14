@@ -3,7 +3,7 @@
 const mysql = require('mysql');
 
 const dbConfig = {
-  host: 'kevinnz2164@gmail.com',
+  host: 'sql10.freemysqlhosting.net',
   user: 'sql10626267',
   password: 'FZLLAecBGV',
   database: 'sql10626267',
