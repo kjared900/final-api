@@ -3,10 +3,10 @@
 const mysql = require('mysql');
 
 const dbConfig = {
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'tienda',
+  host: 'kevinnz2164@gmail.com',
+  user: 'sql10626267',
+  password: 'FZLLAecBGV',
+  database: 'sql10626267',
 };
 
 const connection = mysql.createConnection(dbConfig);
