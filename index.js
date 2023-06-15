@@ -6,7 +6,11 @@ const dbOperaciones = require('./db.operaciones');
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: 'https://shimmering-concha-01498a.netlify.app',
+  methods: ['GET', 'POST', 'PUT','PATCH', 'DELETE'],
+  allowedHeaders: ['Content-Type']
+}));
 
 app.listen(process.env.PORT, () => {
   console.log('listening on port 3000')
